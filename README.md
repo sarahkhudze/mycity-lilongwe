@@ -9,8 +9,8 @@ The goal of this app is to show recommendations about a city based on a variety 
 
 # Screenshots
 <div>
-  <img height="500" src="https://github.com/TaxiKab119/MyCityApp/screenshots/home">
-  <img height="500" src="https://github.com/TaxiKab119/MyCityApp/screenshots/115945374/category>
-  <img height="500" src="https://github.com/TaxiKab119/MyCityApp/screenshots/115945374/detail>
+  <img height="500" src="screenshots/home.jpg">
+  <img height="500" src="screenshots/categories.jpg">
+  <img height="500" src="screenshots/details.jpg">
 </div>
 
