@@ -1,73 +1,174 @@
 <resources>
-    <string name="app_name">London, ON</string>
+
+    <!-- App name -->
+    <string name="app_name">Explore Lilongwe</string>
     <string name="back_button">Back</string>
 
+
+    <!-- ===================== -->
+    <!-- Categories -->
+    <!-- ===================== -->
     <string name="restaurant_category">Restaurants</string>
-    <string name="western_category">Western Campus</string>
-    <string name="grocery_category">Grocery</string>
-    <string name="must_see_category">Must-Sees</string>
+    <string name="coffee_category">Coffee Shops</string>
+    <string name="parks_category">Parks and Outdoors</string>
+    <string name="kids_category">Kid-Friendly Places</string>
+    <string name="shopping_category">Shopping Centres</string>
 
-    <string name="yasmines_title">Yasmine\'s Restaurant</string>
-    <string name="yasmines_description">Yasmine\'s is a lovely Lebanese restaurant which offers a large variety of high-quality dishes. A highlight of the experience is the stone oven, in which fresh pita is made and served hot. The service is, frankly, horrible. But the food is so delicious that it\'s difficult to boycott them completely. Thus, I suggest maintaining healthy boundaries and going only once every few months. However, it can be expected that you might receive the wrong dish, the wait might be very long, and the staff might forget about your order completely.</string>
-    <string name="yasmines_address">Hylands Centre, 1737 Richmond Street #102</string>
+    <!-- ===================== -->
+    <!-- Restaurants -->
+    <!-- ===================== -->
+    <string name="blue_ginger_title">Blue Ginger Restaurant</string>
+    <string name="blue_ginger_address">Area 47, Lilongwe</string>
+    <string name="blue_ginger_description">A popular Asian restaurant known for Chinese and Thai dishes.</string>
 
-    <string name="_168_title">168 Sushi Asian Buffet Bar</string>
-    <string name="_168_description">168 has a special place in my heart, as it is where my partner and I went on our first date. Menu items that must be ordered are as follows: cheese wontons (as many as fit in your stomach, then maybe some more), crispy ginger beef, and the farmer\'s roll. The restaurant is all-you-can-eat style, and a little robot brings out the dishes! You haven\'t eaten enough if you don\'t have to roll yourself out of the restaurant in a state of nausea.</string>
-    <string name="_168_address">660 Oxford Street West</string>
+    <string name="four_seasons_title">Four Seasons Restaurant</string>
+    <string name="four_seasons_address">City Centre, Lilongwe</string>
+    <string name="four_seasons_description">Offers local and international meals, ideal for business meetings.</string>
 
-    <string name="beertown_title">Beertown Public House</string>
-    <string name="beertown_description">Despite its unimaginative name, Beertown Public House offers some of the most delicious food in London. What truly can be spoken about is the restaurant\'s consistency; you can order anything on the menu at any time and the food is guaranteed to blow your mind. Service is always fast, friendly, and helpful. To take advantage of Beertown\'s extensive alcohol menu, I would suggest ordering a paddle (or three) in which you can try four different beers. If you\'re feeling brave, order the Beermageddon Paddletron 3000, which contains 30 beers. Just make sure you have a designated driver!</string>
-    <string name="beertown_address">109 Fanshawe Park Road East</string>
+    <string name="mamma_mia_title">Mama Mia Restaurant</string>
+    <string name="mamma_mia_address">Area 10, Lilongwe</string>
+    <string name="mamma_mia_description">Italian restaurant famous for pizza and pasta.</string>
 
-    <string name="spageddy_title">Spageddy Eddy\'s</string>
-    <string name="spageddy_description">The only thing going for Spageddy Eddy\'s is its strange, yet friendly vibe. If it is a high-quality restaurant that you\'re looking for, you\'d be better off somewhere else. And, under no circumstances, order spaghetti with white sauce or saganaki (you\'ve been warned). Even someone who\'s never cooked in their life could put together a better dish than what\'s served at Spageddy Eddy\'s. However, there is something charming about this little basement restaurant. The staff is welcoming, you can order pasta with pineapple chunks, and the portion sizes are enormous.</string>
-    <string name="spageddy_address">428 Richmond Street</string>
+    <!-- ===================== -->
+    <!-- Coffee Shops -->
+    <!-- ===================== -->
+    <!-- Real Coffee Shops in Lilongwe -->
 
-    <string name="loblaws_title">Loblaws</string>
-    <string name="loblaws_description">Loblaws is the most lacklustre entry in this app. There is a medium amount of selection and the shopping experience is incredibly mediocre. The prices are high, but I must admit that the store is very conveniently located if you live in the Masonville area. Other than that, there isn\'t much interesting to say about it. There are, however, a few grocery gems that deserve recognition in this blurb. There is a 3-pack of ready-made sandwiches that cost only 12 dollars and are out of this world. The Ube boba cream pie looks incredible, but unfortunately, I have never been allowed to try it (i.e., girlfriend issue). And lastly, if you go near closing time, some of the pre-made food is 50 percent off and still quite tasty.</string>
-    <string name="loblaws_address">1740 Richmond Street</string>
+    <string name="lark_cafe_title">Lark Cafe</string>
+    <string name="lark_cafe_address">Chilanga Drive, Lilongwe</string>
+    <string name="lark_cafe_description">
+    Popular garden café offering coffee, pastries, and a peaceful outdoor atmosphere.
+</string>
 
-    <string name="costco_title">Costco North London</string>
-    <string name="costco_description">The London Costco location is equally amazing as it is awful. Everything is so cheap, and going there can be a great way to save money. However, if you do not stay focused on your trip there, you can easily end up spending hundreds and hundreds of dollars that you don\'t have. On top of this, you might be stuck with bulk items that stay in your freezer/pantry forever (and ever). If you\'re willing to take this risk, you better gear up! Prepare yourself to be pummeled, body-checked, and yelled at. The parking lot presents the most risk, so make sure you train yourself to dodge cars, people, and loose shopping carts with ease.</string>
-    <string name="costco_address">693 Wonderland Road North</string>
+    <string name="ama_khofi_title">Ama Khofi</string>
+    <string name="ama_khofi_address">Area 43, Lilongwe</string>
+    <string name="ama_khofi_description">
+    Highly rated café known for excellent coffee, fresh juices, and light meals.
+</string>
 
-    <string name="nofrills_title">Nofrills</string>
-    <string name="nofrills_description">No Frills is London\'s biggest grocery gem. With incredibly cheap prices, surprisingly decent meat, and a beautiful produce section, shopping here has many benefits. The most exciting section is the snack aisle, which contains international options that you can\'t get anywhere else. I personally recommend the Milo sandwich cookies; however, you truly can\'t go wrong. As well, No Frills also sells my girlfriend\'s favourite Pringles flavour (Buffalo ranch), which is surprisingly hard to find. Lastly, if you eat halal, this grocery store is the place to go!</string>
-    <string name="nofrills_address">599 Fanshawe Park Road West</string>
+    <string name="urban_cafe_title">Urban Café</string>
+    <string name="urban_cafe_address">Pacific Mall, Area 10, Lilongwe</string>
+    <string name="urban_cafe_description">
+    Modern café serving specialty coffee, snacks, and a relaxed workspace environment.
+</string>
 
-    <string name="my_kitchen_title">My Kitchen</string>
-    <string name="my_kitchen_description">The absolute best place to eat is out of my kitchen, where my girlfriend and I like to cook. The food, service, and ambience are unparalleled, even when compared to Michelin-star restaurants. Unfortunately, the mashed potatoes are always chunk city (skill issue) and I\'m forced to eat the things I buy on a whim (e.g., brown sugar mochi). As well, cooking significantly raises the temperature of our non-air-conditioned apartment in the summer. However, the food here certainly contains the most love. If I could eat anywhere, it would be here.</string>
-    <string name="my_kitchen_address">ADDRESS REDACTED</string>
 
-    <string name="med_hall_title">Medway-Sydenham Hall</string>
-    <string name="med_hall_description">Although old and decrepit, Medway-Sydenham Hall is the most special place in all of London. It is where my partner and I met for the first time, as we were on the same floor during our time in residence. I would advise against living in Medway Hall, as in the evening you need to walk through a long and creepy hall to get to the cafeteria. However, if you do make it there, the incredible mozzarella sticks are a must-try (they actually aren\'t very good). Make sure to bring lots of hand, mouth, and foot sanitizer if you plan on using the washroom during your time there.</string>
-    <string name="med_hall_address">1151 Richmond Street</string>
+    <!-- ===================== -->
+    <!-- Parks & Outdoors -->
+    <!-- ===================== -->
+    <string name="wildlife_title">Lilongwe Wildlife Centre</string>
+    <string name="wildlife_address">Area 13, Lilongwe</string>
+    <string name="wildlife_description">A nature reserve and animal sanctuary ideal for outdoor walks.</string>
 
-    <string name="uc_hill_title">University College Hill</string>
-    <string name="uc_hill_description">Arguably the most scenic and beautiful area on campus, every student hates hauling their textbooks up University College Hill when they\'re on their way to calculus. Things that you might see include geese, more geese, and goose poop. Make sure to give these beautiful beings a wide berth, because if you\'re not careful, you might get hissed at or even attacked. In the winter, I would recommend buying a cheap sled or \"borrowing\" a cafeteria tray to slide down the hill on. Just make sure you\'re wearing appropriate clothes to keep you warm and healthy!</string>
-    <string name="uc_hill_address">1151 Richmond Street</string>
+    <string name="kamuzu_dam_title">Kamuzu Dam</string>
+    <string name="kamuzu_dam_address">Near Area 25, Lilongwe</string>
+    <string name="kamuzu_dam_description">A popular place for picnics and relaxation.</string>
 
-    <string name="taylor_title">Taylor Library</string>
-    <string name="taylor_description">Taylor Library is the place to go if you\'re looking to feel inadequate about your abilities as a student. If you listen closely (or if you have noise-cancelling headphones and music blasting) you might hear medical science students bragging to each other about how smart they are, psychology students oversharing about their mental illnesses, and very nasty gossip about some girl you\'ll never meet. As well, on the quiet floors, it is guaranteed that at least one person will be talking on their phone very loudly. However, you can always find a place to sit, and it is far less depressing than the other big library on campus (Weldon). </string>
-    <string name="taylor_address">1151 Richmond Street</string>
+    <string name="havilah_park_title">Havilah Park</string>
+    <string name="havilah_park_address">Area 49, Lilongwe</string>
+    <string name="havilah_park_description">
+    Family-friendly recreation park with open green spaces, picnic areas, and safe play zones for children.
+</string>
 
-    <string name="rec_title">Western Student Rec Centre</string>
-    <string name="rec_description">The Western Student Recreation Centre is the best place on campus to work out, which doesn\'t say a lot. It is quite big and contains all kinds of machines and equipment. However, no matter what time you go, the squat racks will almost certainly all be full. Fun things to keep an eye out for include: someone yelling at the top of their lungs while bench-pressing, vloggers, machines not being cleaned after use, foot fungus (from the showers), and first years. I must say, however, that I truly enjoyed the long hours I spent here during my first year of university. This was also the spot where I was when I got the email from Western saying exams were cancelled due to a global pandemic; this was the only time I\'ve ever seen that place completely silent.</string>
-    <string name="rec_address">1151 Richmond Street</string>
+    <!-- ===================== -->
+    <!-- Kid-Friendly Places -->
+    <!-- ===================== -->
+    <!-- Top Five Kid-Friendly Places in Lilongwe -->
 
-    <string name="transit_title">London Transit Commission</string>
-    <string name="transit_description">Before my girlfriend moved to London, she lived in Toronto. She says that at the time, she thought nothing could be worse than the TTC. Then she tried using the LTC… If you rely on public transportation in London, make sure you leave an hour earlier than Google Maps tells you to. This will ensure that you are on time, even if the bus repeatedly fails to show up on schedule (as it always does).Trying to get to Western campus using the LTC is especially hazardous, as pretty much every student lives on the same street. All in all, I think the LTC truly showcases the incredible public infrastructure available to Canadians.</string>
-    <string name="transit_address">150 Dundas Street</string>
-    
-    <string name="trail_title">Fanshawe Lake Trail</string>
-    <string name="trail_description">The Fanshawe Lake Trail might be the most wonderful thing that London has to offer. The trail is 20 kilometres long and showcases a wide variety of different flora and fauna along the way. However, be prepared! Sunscreen, protein bars, bug spray, and tick-safe pants must all be brought to ensure your safety and comfort. One downside is that there are many cyclists who frequent the path. Consequently, if you need to pee, ensure that you are hidden from the recording GoPros attached to their helmets. Once you\'ve made it through the entire trail, I would highly recommend getting a mucho-sized burrito from Mucho Burrito. Then, you will truly experience what it feels like to live.</string>
-    <string name="trail_address">1424 Clarke Rd</string>
+    <string name="kids_wildlife_title">Lilongwe Wildlife Centre</string>
+    <string name="kids_wildlife_address">Area 13, Lilongwe</string>
+    <string name="kids_wildlife_description">
+    Educational and fun sanctuary with animals, nature trails, and child-friendly learning activities.
+</string>
 
-    <string name="bg_title">Budweiser Gardens</string>
-    <string name="bg_description">Budweiser Gardens is a very average stadium where artists perform when they come to town. There, I got to experience a life-changing show called the Blue Man Group, in which men who are painted blue do… I\'m not sure. The best part about watching the Blue Man Group was that it ended. Honestly, I deeply and truly regret the hour that I wasted and will never get back. Actually, I\'m not sure if I would recommend Budweiser Gardens anymore. I don\'t think I would be able to enjoy anything new without remembering the horror of the Blue Man Group.</string>
-    <string name="bg_address">99 Dundas Street</string>
+    <string name="eden_estates_title">Eden Estates and Resort</string>
+    <string name="eden_estates_address">Along Airport Road, Lilongwe</string>
+    <string name="eden_estates_description">
+    Family-friendly park with play areas, picnic spaces, and a safe environment for children.
+</string>
 
-    <string name="tin_title">Tin Cup Mini-Golf</string>
-    <string name="tin_description">Tin Cup is a cute, fun, and charming mini-golf place in London. It truly offered me the perfect setting to show my partner how much better I am than her at mini-golf! Every hole is unique and well-kept, and the staff is very friendly. Next door is a bar called the Waltzing Weasel. My partner and I have lived in London for four years, and bring up going there probably once a month. Do you want to know how many times we\'ve gone? The answer is zero. But maybe one day! Or maybe… you could beat us to it.</string>
-    <string name="tin_address">1324 Adelaide Street North</string>
+    <string name="kukuye_title">KUKUYE Amusement Park</string>
+    <string name="kukuye_address">Lumbadzi, Lilongwe</string>
+    <string name="kukuye_description">
+    Private family park offering play areas, events space, and a secure environment for children.
+</string>
+
+    <string name="botanical_gardens_title">Lilongwe Botanical Gardens</string>
+    <string name="botanical_gardens_address">Area 10, Lilongwe</string>
+    <string name="botanical_gardens_description">
+    Large green space ideal for family walks, outdoor play, and nature exploration.
+</string>
+
+    <string name="city_mall_kids_title">City Mall Play Areas</string>
+    <string name="city_mall_kids_address">City Centre, Lilongwe</string>
+    <string name="city_mall_kids_description">
+    Indoor and outdoor play zones suitable for younger children, with family-friendly facilities.
+</string>
+
+    <!-- ===================== -->
+    <!-- Shopping Centres -->
+    <!-- ===================== -->
+    <!-- Shopping Centres -->
+
+    <string name="lilongwe_city_mall_title">Lilongwe City Mall</string>
+    <string name="lilongwe_city_mall_address">City Centre, Lilongwe</string>
+    <string name="lilongwe_city_mall_description">
+    Modern shopping mall with supermarkets, retail stores, and restaurants.
+</string>
+
+    <string name="gateway_mall_title">Gateway Mall</string>
+    <string name="gateway_mall_address">Area 47, Lilongwe</string>
+    <string name="gateway_mall_description">
+    Popular shopping centre with supermarkets, restaurants, and services.
+</string>
+
+    <string name="city_mall_shopping_title">City Mall</string>
+    <string name="city_mall_shopping_address">City Centre, Lilongwe</string>
+    <string name="city_mall_shopping_description">
+    Convenient shopping mall serving office workers and nearby residents.
+</string>
+
+
+    <string name="old_town_mall_title">Old Town Mall</string>
+    <string name="old_town_mall_address">Old Town, Lilongwe</string>
+    <string name="old_town_mall_description">
+    Shopping complex with banks, shops, and restaurants.
+</string>
+
+    <string name="pacific_parade_title">Pacific Parade</string>
+    <string name="pacific_parade_address">Area 10, Lilongwe</string>
+    <string name="pacific_parade_description">
+    Mixed-use shopping and business complex with retail stores and offices.
+</string>
+
+    <string name="golden_peacock_title">Golden Peacock Shopping Centre</string>
+    <string name="golden_peacock_address">Area 10, Lilongwe</string>
+    <string name="golden_peacock_description">
+    Shopping centre near Golden Peacock Hotel with shops and restaurants.
+</string>
+
+    <string name="century_city_mall_title">Century City Mall</string>
+    <string name="century_city_mall_address">Area 9, Lilongwe</string>
+    <string name="century_city_mall_description">
+    Modern shopping mall offering retail stores, supermarkets, and services.
+</string>
+
+    <string name="sana_mega_store_title">Sana Mega Store Complex</string>
+    <string name="sana_mega_store_address">Old Town, Lilongwe</string>
+    <string name="sana_mega_store_description">
+    Wholesale and retail shopping complex popular for household goods.
+</string>
+
+    <string name="crossroads_complex_title">Crossroads Complex</string>
+    <string name="crossroads_complex_address">Area 13, Lilongwe</string>
+    <string name="crossroads_complex_description">
+    Convenient shopping complex with retail outlets and food services.
+</string>
+
+    <string name="kapani_kanengo_mall_title">Kapani Kanengo Mall</string>
+    <string name="kapani_kanengo_mall_address">Kanengo, Lilongwe</string>
+    <string name="kapani_kanengo_mall_description">
+    Shopping mall serving the Kanengo industrial and residential area.
+</string>
+
 </resources>

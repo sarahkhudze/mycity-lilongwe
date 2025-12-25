@@ -33,7 +33,7 @@ fun CategoryListScreen(
     onCardClick: (Category) -> Unit,
 ) {
     LazyColumn(modifier = modifier) {
-        items(categoryList) {category ->
+        items(categoryList) { category ->
             CategoryCard(
                 category = category,
                 selected = false,
@@ -82,11 +82,9 @@ fun CategoryCard(
                 style = MaterialTheme.typography.headlineMedium,
                 modifier = Modifier.padding(start = 12.dp)
             )
-
         }
     }
 }
-
 
 @Preview(showBackground = true)
 @Composable
@@ -105,24 +103,22 @@ fun CategoryCardPreview() {
 @Composable
 fun CategoryListContentPreview() {
     MyCityAppTheme {
-
         Scaffold(
             topBar = {
                 MyCityAppBar(
                     canNavigateBack = false,
                     headerResId = R.string.app_name,
-                    currentScreen = MyCityScreen.CATEGORY
+                    currentScreen = MyCityScreen.CATEGORY,
+                    navigateUp = {} // ✅ Added missing parameter
                 )
             }
         ) { innerPadding ->
             CategoryListScreen(
                 categoryList = DataSource.getCategoryData(),
-                onCardClick = { Category -> },
+                onCardClick = { /* Handle click if needed */ },
                 modifier = Modifier
                     .padding(innerPadding)
             )
         }
-
-
     }
 }

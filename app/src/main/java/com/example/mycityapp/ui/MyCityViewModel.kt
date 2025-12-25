@@ -46,10 +46,12 @@ class MyCityViewModel : ViewModel() {
     private fun updateRecommendationListData(@StringRes categoryTitleId: Int) {
 
         val recommendationList: List<Recommendation> = when (categoryTitleId) {
+
             R.string.restaurant_category -> DataSource.getRestaurantData()
-            R.string.grocery_category -> DataSource.getGroceryData()
-            R.string.western_category -> DataSource.getWesternData()
-            R.string.must_see_category -> DataSource.getMustSeeData()
+            R.string.coffee_category -> DataSource.getCoffeeShopData()
+            R.string.parks_category -> DataSource.getParksData()
+            R.string.kids_category -> DataSource.getKidsData()
+            R.string.shopping_category -> DataSource.getShoppingData()
             else -> DataSource.getRestaurantData()
         }
 

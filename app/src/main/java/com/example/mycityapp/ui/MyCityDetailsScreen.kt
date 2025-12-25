@@ -80,7 +80,6 @@ fun DetailsScreen(
     }
 }
 
-
 @OptIn(ExperimentalMaterial3Api::class)
 @Preview(showBackground = true)
 @Composable
@@ -91,7 +90,8 @@ fun DetailsScreenPreview() {
                 MyCityAppBar(
                     canNavigateBack = true,
                     headerResId = DataSource.defaultCategory.titleResourceId,
-                    currentScreen = MyCityScreen.DETAIL
+                    currentScreen = MyCityScreen.DETAIL,
+                    navigateUp = {} // 👈 Add this line
                 )
             }
         ) { innerPadding ->
