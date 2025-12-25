@@ -10,7 +10,7 @@ The goal of this app is to show recommendations about a city based on a variety 
 # Screenshots
 <div>
   <img height="500" src="screenshots/home.jpg">
-  <img height="500" src="screenshots/categories.jpg">
-  <img height="500" src="screenshots/details.jpg">
+  <img height="500" src="screenshots/category.jpg">
+  <img height="500" src="screenshots/detail.jpg">
 </div>
 
